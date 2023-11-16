@@ -95,10 +95,12 @@
   /* Home Responsive In */
   .home-container {
     padding-top: 80px;
+    flex-direction: column-reverse;
+    height: 120vh;
   }
-  .home-container > h1 {
-    word-spacing: 4px;
+  .home-content > h1 {
     letter-spacing: 0px;
+    font-size: 28px;
   }
 
   /* Home Responsive Out */
