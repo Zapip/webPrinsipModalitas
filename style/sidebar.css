@@ -23,8 +23,8 @@
             --header-height: 3rem;
             --nav-width: 68px;
             --first-color: #111111;
-            --first-color-light: #AFA5D9;
-            --white-color: #F7F6FB;
+            --first-color-light: #d4d4d4;
+            --white-color: crimson;
             --body-font: 'Nunito', sans-serif;
             --normal-font-size: 1rem;
             --z-fixed: 100;
@@ -59,7 +59,7 @@
             align-items: center;
             justify-content: space-between;
             padding: 0 1rem;
-            background-color: var(--white-color);
+            background-color: white;
             z-index: var(--z-fixed);
             transition: .5s;
         }
@@ -118,12 +118,13 @@
 
         .nav_logo-icon {
             font-size: 1.25rem;
-            color: var(--white-color);
+            color: white;
         }
 
         .nav_logo-name {
-            color: var(--white-color);
             font-weight: 700;
+            color: white;
+
         }
 
         .nav_link {
@@ -166,6 +167,8 @@
             height: 100vh;
         }
 
+        
+
         @media screen and (min-width: 768px) {
             body {
                 margin: calc(var(--header-height) + 1rem) 0 0 0;
@@ -198,4 +201,18 @@
             .body-pd {
                 padding-left: calc(var(--nav-width) + 188px);
             }
+            
         }
+        @media screen and (max-width: 480px){
+            .r-materi{
+                width: 360px;
+                height: 202.5px;
+            }
+        }
+        @media (min-width: 481px) and (max-width: 1024px){
+            .r-materi{
+                width: 690px;
+                height: 388.125px;
+            }
+        }
+
