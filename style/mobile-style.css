@@ -170,75 +170,6 @@
 
   /* Skills Out */
 
-  /* Galerry In */
-  .gallery-container {
-    padding: 60px 0;
-    flex-direction: column;
-    background-color: #f3f3f3;
-    color: #111111;
-    align-items: center;
-  }
-  .gallery-container h1 {
-    margin: 90px 0 0 0px;
-  }
-  .gallery-container span {
-    margin: 10px 0 0 0px;
-  }
-
-  .gallery-container h3 {
-    text-align: center;
-    margin: 10px 0 0 0;
-  }
-
-  .gallery-content {
-    margin: 50px 0px 0 0px;
-  }
-  .content-img {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #111111;
-    width: 287.33px;
-    height: 218px;
-    box-shadow: 0px 2px 30px 5px #747474;
-  }
-  .content-img img {
-    width: 277.33px;
-    height: 208px;
-  }
-  .content-caption {
-    display: none;
-  }
-  .content-img:hover .content-caption {
-    display: flex;
-    position: absolute;
-    background-color: white;
-    width: 287.33px;
-    height: 218px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    row-gap: 5px;
-  }
-  .content-caption .content-button {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    width: 190px;
-    height: 40px;
-    background-color: #111111;
-    border-radius: 30px;
-  }
-  .content-caption .content-button a {
-    text-decoration: none;
-    color: white;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
-
-  /* Gallerry Out */
-
   /* Footer Responsive IN*/
   .footer-container {
     flex-direction: column;
@@ -251,4 +182,16 @@
   }
 
   /* Footer Responsive Out*/
+
+  /* Dashboard */
+  .container-path{
+  flex-direction: column;
+  align-items: center;
+  }
+  .container-path .path{
+    width:90%;
+    height: 450px;
+
+  }
+  
 }
