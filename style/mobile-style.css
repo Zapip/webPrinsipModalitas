@@ -62,11 +62,11 @@
   }
 
   .header-container .nav-list ul {
+    width: 80%;
     justify-content: space-evenly;
     gap: 0;
     position: absolute;
     flex-direction: column;
-    width: 80%;
     height: 100vh;
     right: 0;
     top: 0;
@@ -96,11 +96,38 @@
   .home-container {
     padding-top: 80px;
     flex-direction: column-reverse;
-    height: 120vh;
+    height: 135vh;
   }
   .home-content > h1 {
     letter-spacing: 0px;
     font-size: 28px;
+  }
+
+  .home-img {
+    width: 310px;
+    height: 310px;
+  }
+  .home-img .circle {
+    background: #111111;
+    border-radius: 50%;
+  }
+  .home-content {
+    width: 80%;
+    align-items: center;
+    row-gap: 40px;
+  }
+  .home-content > h1 {
+    text-align: center;
+    /* white-space: nowrap; */
+    /* word-spacing: 6px; */
+    /* letter-spacing: 3px; */
+  }
+  .home-content p {
+    width: 90%;
+    text-align: justify;
+  }
+  .home-content > h1:nth-child(1) {
+    font-size: 24px;
   }
 
   /* Home Responsive Out */
@@ -112,13 +139,15 @@
     flex-direction: column;
     align-items: center;
     height: 100%;
+    padding-bottom: 60px;
   }
 
   .about-container h1 {
-    margin: 90px 0 0 0px;
+    margin: 0;
     font-size: 32px;
     word-spacing: 6px;
     letter-spacing: 3px;
+    text-align: center;
   }
   .about-container span {
     margin: 10px 0 0 0px;
@@ -127,14 +156,14 @@
     width: 210px;
   }
   .about-content {
-    margin: 20px 30px 0 30px;
+    width: 90%;
     align-items: center;
     flex-direction: column;
   }
 
   .about-txt {
     align-items: center;
-    text-align: center;
+    text-align: left;
   }
   .about-txt h3 {
     font-size: 24px;
@@ -153,7 +182,7 @@
 
   /* Skills In */
   .skills-container {
-    padding: 60px 0 0 0;
+    padding: 60px 0;
     height: 100%;
     align-items: center;
   }
@@ -166,6 +195,28 @@
 
   .skill-content {
     margin: 50px 0 0 0;
+    flex-direction: column-reverse;
+  }
+
+  .content {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+  }
+  .content h4 {
+    width: 80%;
+    text-align: center;
+    font-size: 24px;
+  }
+  .content p {
+    width: 80%;
+    text-align: justify;
+  }
+
+  .content div img {
+    width: 300px;
+    border: 3px solid #111111;
   }
 
   /* Skills Out */
@@ -184,14 +235,12 @@
   /* Footer Responsive Out*/
 
   /* Dashboard */
-  .container-path{
-  flex-direction: column;
-  align-items: center;
+  .container-path {
+    flex-direction: column;
+    align-items: center;
   }
-  .container-path .path{
-    width:90%;
+  .container-path .path {
+    width: 90%;
     height: 450px;
-
   }
-  
 }
