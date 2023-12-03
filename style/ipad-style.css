@@ -96,6 +96,8 @@
   }
 
   /* Dashboard */
-
-  
+  .container-path .path {
+    width: 300px;
+    height: 500px;
+  }
 }
